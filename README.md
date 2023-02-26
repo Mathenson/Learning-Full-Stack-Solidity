@@ -13,4 +13,23 @@ Our aim in this project is to get a greeting alert from the solidity file hello-
 ## requirement
 
 solcjs
+==>to read and compile solidity file
+
 yarn
+==>
+
+Ganache
+==> network provider
+
+Ethers
+
+## Steps
+
+1. add Ganache to your project
+   yarn add ganache
+2. run ganache as a network provider
+   yarn run ganache
+3. copy its rpc and input in your project
+   http://127.0.0.1:8545
+
+NOTE: you can also use truffle
